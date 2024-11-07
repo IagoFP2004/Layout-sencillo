@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #4a465b;
+    margin: 0;
+}
+
+.main{
+    height: 900px;
+    width: 1000px;
+    margin: 0;
+    margin: auto;
+}
+
+nav{
+    background-color: white;
+    height: 130;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+header nav ul:first-child{
+    padding-left: 0;
+}
+
+header nav ul li:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #4a465b;
+    margin: 0;
+}
+
+.main{
+    height: 900px;
+    width: 900px;
+    margin: 0;
+    margin: auto;
+}
+
+nav{
+    background-color: white;
+    height: 130;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+header nav ul:first-child{
+    padding-left: 0;
+}
+
+header nav ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+.section1{
+    height: 1200px;
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+
+.section-footer{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-top: 62px;
+}
+
+.section-footer p{
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+#img{
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.texto{
+    width: 500px;
+    padding-left: 30px;
+}
+
+.aside{
+    height: 750px;
+    width: 33%;
+    background-color: #161f26;
+    float: left;
+    position: relative;
+    padding-left: 3px;
+}
+
+.title{
+    color: #ff8000;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+aside ul li{
+   color: white; 
+   list-style-type: none;
+   border-bottom: 1px solid white;
+   padding-top: 5px;
+}
+
+aside ul{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+aside div ul a li:hover{
+    color: #8f8f8f;
+}
+
+aside p{
+    color: white;
+    width: 250px;
+    padding-left: 25px;
+}
+
+@media (max-width: 800px) {
+    aside{
+        clear: both;
+        width: 1800px;
+    }
+
+    .main{
+        width: 600px;
+    }
+
+    nav{
+        width: 100%;
+    }
+}
